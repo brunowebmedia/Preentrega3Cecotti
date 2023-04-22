@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Sono, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(186, 202, 159);
 }
 
 header {
@@ -28,8 +33,12 @@ footer {
     align-self: center;
     display: flex;
     justify-content: center;
-} 
+}
 
 .card {
     width: 18rem;
+}
+
+img {
+    border-radius: 20px;
 }
