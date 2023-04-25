@@ -1,0 +1,17 @@
+.btn-gray {
+    background-color: $btn-primario;
+    border: 2px solid $btn-primario;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.btn {
+    background-color: $btn-secundario;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 5px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
