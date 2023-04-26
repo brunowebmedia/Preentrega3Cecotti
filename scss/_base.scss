@@ -1,5 +1,4 @@
 $color-primario:  burlywood;
-$font-first: Sono, Verdana, Geneva, Tahoma, sans-serif;
 $btn-primario:grey;
 $btn-secundario: chocolate;
 
@@ -7,10 +6,12 @@ $btn-secundario: chocolate;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Sono, Verdana, Geneva, Thaoma, Sans-serif;
 }
 
 
 /* color de fondo del body */
+
 body {
     background-color: rgb(186, 202, 159);
 }
