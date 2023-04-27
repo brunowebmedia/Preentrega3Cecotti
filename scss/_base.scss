@@ -2,6 +2,11 @@ $color-primario:  burlywood;
 $btn-primario:grey;
 $btn-secundario: chocolate;
 
+@font-face {
+    font-family: "gallager";
+    src: url(../fonts/gallager.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +18,13 @@ $btn-secundario: chocolate;
 /* color de fondo del body */
 
 body {
-    background-color: rgb(186, 202, 159);
+    background-color: rgb(240, 216, 185);
+}
+
+h1 {
+    font-family: gallager;
+    font-size: 4rem;
+    color: white;
 }
 
 
