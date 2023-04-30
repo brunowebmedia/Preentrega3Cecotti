@@ -1,13 +1,20 @@
 .btn-gray {
-    background-color: $btn-primario;
-    border: 2px solid $btn-primario;
-    color: white;
+    background-color: $color-primario;
+    border: 1px solid $btn-primario;
+    color: $btn-primario;
     border-radius: 5px;
+    
+    &:hover {
+        background-color: $btn-primario;
+        color: $color-primario;
+    }
 }
 
 
+
+
 .btn {
-    background-color: $btn-secundario;
+    background-color: $color-primario;
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px 5px;

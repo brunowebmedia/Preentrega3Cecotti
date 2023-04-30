@@ -1,6 +1,6 @@
-$color-primario:  burlywood;
-$btn-primario:grey;
-$btn-secundario: chocolate;
+$color-primario: rgb(62, 81, 105);
+$btn-primario: rgb(236, 202, 202);
+$btn-secundario: rgb(216, 173, 202);
 
 @font-face {
     font-family: "gallager";
@@ -14,17 +14,21 @@ $btn-secundario: chocolate;
     font-family: Sono, Verdana, Geneva, Thaoma, Sans-serif;
 }
 
+.button-header {
+    background-color: $btn-primario;
+}
 
 /* color de fondo del body */
 
+
 body {
-    background-color: rgb(240, 216, 185);
+    background: linear-gradient(to right, rgb(243, 205, 229), rgb(222, 196, 247), rgb(159, 198, 199));
+    
+    
 }
 
 h1 {
     font-family: gallager;
-    font-size: 4rem;
-    color: white;
+    font-size: 46px;
+    color: $btn-primario;
 }
-
-

@@ -1,3 +1,11 @@
 footer {
     background-color: $color-primario;
+    color: $btn-primario;
+}
+i {
+    color: black;
+}
+i:hover {
+    color: $btn-primario;
+    background-color: $color-primario;
 }

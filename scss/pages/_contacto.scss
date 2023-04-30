@@ -1,0 +1,15 @@
+.texto {
+    color: $color-primario;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border-radius: 10px;
+}
+
+textarea {
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+} 
