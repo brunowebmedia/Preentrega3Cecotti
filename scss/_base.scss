@@ -32,3 +32,15 @@ h1 {
     font-size: 46px;
     color: $btn-primario;
 }
+
+@media (min-width:480px) {
+    h1 {
+        font-size: 65px;
+    }
+}
+
+h2 {
+    color: $color-primario;
+    font-family: gallager;
+    font-size: 40px;
+}

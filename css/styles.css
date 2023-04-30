@@ -24,6 +24,17 @@ h1 {
   color: rgb(236, 202, 202);
 }
 
+@media (min-width: 480px) {
+  h1 {
+    font-size: 65px;
+  }
+}
+h2 {
+  color: rgb(62, 81, 105);
+  font-family: gallager;
+  font-size: 40px;
+}
+
 .btn-gray {
   background-color: rgb(62, 81, 105);
   border: 1px solid rgb(236, 202, 202);
