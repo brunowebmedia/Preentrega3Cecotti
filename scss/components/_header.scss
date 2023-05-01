@@ -1,4 +1,13 @@
 header {
     background-color: $color-primario;
-    border: solid, chocolate;
+}
+
+// @media (min-width:480px) {
+//     img {
+//         size: none;
+//     }
+// }
+
+.button-header {
+    border-radius: 20px;
 }

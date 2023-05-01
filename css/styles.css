@@ -87,7 +87,10 @@ i:hover {
 
 header {
   background-color: rgb(62, 81, 105);
-  border: solid, chocolate;
+}
+
+.button-header {
+  border-radius: 20px;
 }
 
 img {
