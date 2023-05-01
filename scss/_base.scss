@@ -16,6 +16,7 @@ $btn-secundario: rgb(216, 173, 202);
 
 .button-header {
     background-color: $btn-primario;
+    z-index: 5;
 }
 
 /* color de fondo del body */
@@ -23,8 +24,8 @@ $btn-secundario: rgb(216, 173, 202);
 
 body {
     background: linear-gradient(to right, rgb(243, 205, 229), rgb(222, 196, 247), rgb(159, 198, 199));
-    
-    
+
+
 }
 
 h1 {
@@ -44,3 +45,9 @@ h2 {
     font-family: gallager;
     font-size: 40px;
 }
+
+
+.dropdown-menu {
+    box-shadow: 10px 10px 10px;
+}
+
