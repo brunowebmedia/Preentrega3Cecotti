@@ -17,6 +17,8 @@
 /* color de fondo del body */
 body {
   background: linear-gradient(to right, rgb(243, 205, 229), rgb(222, 196, 247), rgb(159, 198, 199));
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
