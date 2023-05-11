@@ -14,6 +14,8 @@ $btn-secundario: rgb(216, 173, 202);
     font-family: Sono, Verdana, Geneva, Thaoma, Sans-serif;
 }
 
+/* Estilos aplicados al nav de secciones */
+
 .button-header {
     background-color: $btn-primario;
     z-index: 5;
@@ -28,30 +30,35 @@ body {
     padding: 0;
 }
 
+/* Estilos del titulo principal */
+
 h1 {
     font-family: gallager;
-    font-size: 46px;
+    font-size: 2.9rem;
     color: $btn-primario;
 }
 
 @media (min-width:480px) {
     h1 {
-        font-size: 65px;
+        font-size: 4.1rem;
     }
 }
+
+/* Estilos titulos secundarios */
 
 h2 {
     color: $color-primario;
     font-family: gallager;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 h3 {
     color: $color-primario;
     font-family: gallager;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
+/* Estilos boton desplegable del nav */
 
 .dropdown-menu {
     box-shadow: 10px 10px 10px;

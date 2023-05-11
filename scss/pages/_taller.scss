@@ -1,3 +1,5 @@
+/* Imagenes animadas */
+
 .animacion {
     display:flex;
     width: 100%;
@@ -19,15 +21,17 @@
     filter: contrast(120%);
 }
 
+/* Estilos de los parrafos */
+
 p {
-    font-size: 13px;
+    font-size: 0.813rem;
     padding: 0;
     margin-top: 8px;
     margin-bottom: 5px;
 }
 
 ul {
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-top: 8px;
     margin-bottom: 8px;
     padding: 0;
